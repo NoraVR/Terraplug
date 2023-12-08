@@ -17,8 +17,8 @@ namespace Terraplug.Config
 
     {
         public override ConfigScope Mode => ConfigScope.ClientSide;
-        static string ConfigPath = Path.Combine(Main.SavePath, "Mod Configs", "Terraplug.json");
-        static Preferences Configuration = new Preferences(ConfigPath);
+        /*static string ConfigPath = Path.Combine(Main.SavePath, "Mod Configs", "Terraplug.json");                // deprecated? idk maybe the guide i followed was just out of date, this isnt needed now tho
+        static Preferences Configuration = new Preferences(ConfigPath);*/
 
         [Header("Responses")]
         [DefaultValue(true)]
