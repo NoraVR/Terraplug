@@ -1,0 +1,4 @@
+displayName = Terraplug
+author = nora
+version = 4.20
+dllReferences = Buttplug, Buttplug.Client.Connectors.WebsocketConnector, Newtonsoft.Json, Microsoft.CSharp, deniszykov.WebSocketListener, System.Threading.Tasks.Dataflow

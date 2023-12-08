@@ -1,0 +1,56 @@
+Configs: {
+	TerraplugConfig: {
+		DisplayName: Terraplug Config
+
+		Headers: {
+			Responses: Responses Header
+			Durations: Durations Header
+			Strengths: Strengths Header
+		}
+
+		RespondToAttacks: {
+			Label: Attacking Enemies
+			Tooltip: ""
+		}
+
+		RespondToHits: {
+			Label: Getting Hit
+			Tooltip: ""
+		}
+
+		RespondToDeath: {
+			Label: Geting Killed
+			Tooltip: ""
+		}
+
+		AttackDuration: {
+			Label: Duration for Attacking
+			Tooltip: ""
+		}
+
+		HitDuration: {
+			Label: Duration for Getting hit
+			Tooltip: ""
+		}
+
+		DeathDuration: {
+			Label: Duration for Dying
+			Tooltip: ""
+		}
+
+		AttackStrength: {
+			Label: Strength for Attacking
+			Tooltip: ""
+		}
+
+		HitStrength: {
+			Label: Strength for Getting hit
+			Tooltip: ""
+		}
+
+		deathStrength: {
+			Label: Strength for Dying
+			Tooltip: ""
+		}
+	}
+}
