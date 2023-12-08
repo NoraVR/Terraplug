@@ -7,3 +7,11 @@ leave an issue if something needs fixing either way! i may get around to it even
 
 
 <sub> this mod started off as a small edit to nih0n's [terragasm](https://github.com/nih0n/terragasm)! check them out! </sub>
+
+## how to use
+(this assumes you already have [intiface](https://github.com/intiface/intiface-central/releases) set up)
+- download the latest [release](https://github.com/NoraVR/Terraplug/releases)
+- place the .tmod file in your tmodloader mod directory (its usually something like `Documents\My Games\Terraria\tModLoader\Mods`)
+- configure settings in the ingame mod config
+- ensure intiface is open and waiting for connections
+- load into a world! the mod should connect automatically once loaded in
