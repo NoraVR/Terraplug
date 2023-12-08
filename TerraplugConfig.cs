@@ -53,16 +53,19 @@ namespace Terraplug.Config
 
         [Label("Strength for Attacking")]
         [Range(0, 1)]
+        [Increment(0.05f)]
         [DefaultValue(0.25)]
         public float AttackStrength;
 
         [Label("Strength for Getting hit")]
         [Range(0, 1)]
+        [Increment(0.05f)]
         [DefaultValue(0.5)]
         public float HitStrength;
 
         [Label("Strength for Dying")]
         [Range(0, 1)]
+        [Increment(0.05f)]
         [DefaultValue(0.75)]
         public float deathStrength;
 
